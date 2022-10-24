@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+    <style>
+        body h1 {
+            color: rgb(3, 3, 146);
+        }
+        fieldset {
+            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" autocomplete="name">
+            </p>
+                <p>
+            <label for="imail">E-mail</label>
+            <input type="email" name="email" id="iemail" autocomplete="email">
+                </p>
+                <p>
+            <label for="itel">Telefone:</label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel" required placeholder="(xx)xxxxx-xxxx">
+                </p>
+                <p>
+            <input type="submit" name="Enviar" id="">
+            <input type="reset" name="Limpar" id="">
+        </fieldset>
+    </form>
+
+    </p>
+    
+</body>
+</html>
